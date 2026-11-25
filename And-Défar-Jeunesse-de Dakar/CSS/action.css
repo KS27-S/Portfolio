@@ -1,0 +1,13 @@
+/* Styles propres à la page des actions : titres centrés et photos des programmes. */
+body{
+    /* Sous-titres des articles : soulignés et centrés. */
+    h2{
+        text-decoration: underline;
+        text-align: center;
+    }
+    /* Illustrations des trois programmes, affichées en cercle et en pleine largeur. */
+    .tof{
+        width: 100%;
+        border-radius: 50%;
+    }
+}

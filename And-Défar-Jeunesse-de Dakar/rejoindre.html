@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Page d'inscription : formulaire permettant de rejoindre la communauté And Défar. -->
+<html lang="fr">
+<head>
+    <!-- Métadonnées, titre de l'onglet, feuille de style commune puis feuille dédiée au formulaire. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REJOIGNEZ-NOUS</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/rejoindre.css">
+</head>
+
+
+    <!-- En-tête commun à toutes les pages : logo et menu de navigation principal. -->
+<body>
+    <header>
+        <!-- Navigation principale : le lien "NOUS REJOINDRE" utilise la classe utilitaire "bouton". -->
+        <img class="logo" src="images/logo.png" alt="photo">
+        <nav id="nav">
+            <a href="index.html">  Accueil </a>
+
+        <a href="action.html" >Nos actions </a>
+
+        <a href="galerie.html"> Galerie</a>
+        
+        <a href="rejoindre.html" class="bouton">NOUS REJOINDRE</a>
+        
+        </nav>
+    </header>
+     <!-- Section du formulaire : consigne affichée puis champs d'information du futur membre. -->
+     <section>
+               <h2>Pour rejoindre notre communauté veiller remplir ce formulaire</h2>
+
+               <!-- Formulaire en méthode GET avec action vide : chaque ligne de saisie est dans un bloc "champ". -->
+               <form method="get" action="" id="contact" class="section contact">
+                <!-- Identité : prénom et nom, deux champs texte distincts. -->
+               <div class="champ"> 
+                 <label for="nom">Prénom</label>
+                <input type="text" name="nom">
+              </div>
+
+             <div class="champ"> 
+                 <label for="nom">Nom</label>
+                <input type="text" name="nom">
+              </div>
+
+               <!-- Coordonnées : adresse e-mail et numéro de téléphone. -->
+              <div class="champ">
+                <label for="email">Email</label>
+                <input type="email" name="email">
+              </div>
+
+              <div class="champ">
+                <label for="numérique">Numéro de téléphone</label>
+                <input type="number" name="number">
+              </div>
+
+               <!-- Informations complémentaires : niveau d'étude et quartier de résidence. -->
+              <div class="champ"> 
+                 <label for="nom">Niveau d'étude</label>
+                <input type="text" name="nom">
+              </div>
+              <div class="champ"> 
+                 <label for="nom">Quartier</label>
+                <input type="text" name="nom">
+              </div>
+
+               <!-- Zone de validation avec le bouton d'envoi du formulaire. -->
+              <div class="envoyer">  
+                <input type="submit" value="envoyer">
+                
+              </div>
+              </form>
+        </section>
+        <!-- Pied de page commun : adresse, réunion, lien WhatsApp externe et logo de retour à l'accueil. -->
+        <footer>
+        <section>
+             <!-- Bloc adresse avec son icône de localisation. -->
+             <div class="adresse">
+                    <img src="images/maps-and-flags.png" alt="" class="localisation" >
+                <h4>Médina,Dakar,Sénégal</h4>    
+                </div>
+
+                <!-- Bloc indiquant la réunion hebdomadaire du samedi à 18h. -->
+                <div class="reunion">
+                    <img src="images/meeting.png" alt="" class="rencontre">
+                <h4>Réunion: tous les samedis à 18h</h4>
+
+                    </div>
+                    <!-- Lien externe WhatsApp ouvert dans un nouvel onglet, avec icône et numéro affiché. -->
+                    <div class="whatsapp">
+                        <a href="https://wa.me/77XXXXXXX" target="_blank" rel="noopener noreferre">
+                        <img src="images/whatsapp (2).png" alt="" class="numero" >
+                        </a>
+                        <h4>whatsapp:77XXXXXXX</h4>
+                    </div>
+                      <!-- Logo cliquable du pied de page renvoyant vers l'accueil dans un nouvel onglet. -->
+                      <div id="footer">
+
+                <a href="index.html" target="_blank" rel="noopener noreferre">
+                    <img src="images/logo.png" alt="" id="logo" >
+                </a>
+                      </div>               
+        </section>
+    </footer>
+
+</body>
+</html>

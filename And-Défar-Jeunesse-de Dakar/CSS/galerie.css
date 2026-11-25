@@ -1,0 +1,12 @@
+/* Styles propres à la galerie photos : images pleine largeur et sous-titre centré. */
+body{
+    /* Classe utilitaire appliquée à chaque photo de la galerie. */
+    .picture{
+        width: 100%;
+    }
+    /* Sous-titre de la galerie : souligné et centré. */
+    h2{
+        text-decoration: underline;
+        text-align: center;
+    }
+}

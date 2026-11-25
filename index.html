@@ -1,0 +1,293 @@
+﻿<!doctype html>
+<!-- Page d'accueil du portfolio étudiant de Khadija Sène. -->
+<html lang="fr">
+  <head>
+    <!-- Métadonnées essentielles : encodage, affichage responsive et description. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ceci est mon portfolio étudiant" />
+    <!-- Analytics Vercel : mise en file d'attente des appels avant chargement du script. -->
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <!-- Speed Insights Vercel : mesure des performances de la page. -->
+    <script>
+      window.si =
+        window.si ||
+        function () {
+          (window.siq = window.siq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+    <!-- Titre de l'onglet et feuille de style principale. -->
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Bandeau d'accueil plein écran avec image de fond et présentation. -->
+    <div class="slider">
+      <img src="image/slider.jpeg" class="slider-background" alt="" />
+      <div class="slider-content">
+        <h1>Khadija Sène</h1>
+        <p>Je suis étudiante en développement web et mobile</p>
+      </div>
+    </div>
+
+    <!-- Section « À propos » : texte de présentation sur deux colonnes. -->
+    <div class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w40">
+            <h2>À propos de moi</h2>
+          </div>
+          <div class="w60">
+            <p>
+              Étudiante en informatique, passionnée par le développement web et
+              la création d’applications. Je me suis également formée au
+              No-Code, au Low-Code et au Vibe Coding, <br />
+              des approches innovantes qui me permettent de concevoir des
+              projets numériques <br />
+              plus rapidement grâce aux outils visuels et à l’intelligence
+              artificielle. <br />
+              J’aime apprendre, expérimenter et transformer mes idées en projets
+              concrets. <br />
+              Mon objectif est de développer continuellement mes compétences
+              pour devenir <br />
+              une développeuse créative, polyvalente et capable de concevoir des
+              solutions utiles, <br />
+              modernes et innovantes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section compétences : grille de logos et de technologies maîtrisées. -->
+    <div class="dark">
+      <div>
+        <h2 class="text-center">Découvrir mes compétences</h2>
+      </div>
+      <div class="dark-w">
+        <div class="w25 skill">
+          <img src="image/html-5.png" alt="Logo HTML" />
+          <h3>HTML</h3>
+        </div>
+        <div class="w25 skill">
+          <img src="image/css-3.png" alt="Logo CSS" />
+          <h3>CSS</h3>
+        </div>
+        <div class="w25 skill">
+          <img src="image/js.png" alt="Logo JavaScript" />
+          <h3>JAVASCRIPT</h3>
+        </div>
+        <div class="w25 skill">
+          <img src="image/airtable3348.jpg" alt="Logo Airtable" />
+          <h3>AIRTABLE</h3>
+        </div>
+        <div class="w25 skill">
+          <img src="image/odoo.png" alt="Logo Odoo" />
+          <h3>ODOO</h3>
+        </div>
+
+        <div class="w25 skill">
+          <img src="image/chatgpt.jpg" alt="Logo ChatGPT" />
+          <h3>CHATGPT</h3>
+        </div>
+
+        <div class="w25 skill">
+          <img src="image/Canva-New-Logo.png" alt="Logo Canva" />
+          <h3>CANVA</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section projets : cartes illustrées avec lien vers chaque réalisation. -->
+    <div class="section" id="projets">
+      <div class="boxed">
+        <h2 class="text-center projects-title">Mes Projets</h2>
+        <div class="projects-grid">
+          <!-- Projet associatif And Défar (site vitrine HTML/CSS). -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img
+                src="And-Défar-Jeunesse-de Dakar/images/affiche.jpg"
+                alt="Aperçu du site And Défar"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-body">
+              <h3>And Défar – La jeunesse qui agit pour Dakar</h3>
+              <p>
+                Site vitrine associatif (Set-setal, soutien scolaire, ateliers
+                numériques) réalisé en HTML et CSS.
+              </p>
+              <a
+                class="project-link"
+                href="And-D%C3%A9far-Jeunesse-de%20Dakar/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Voir le projet</a
+              >
+            </div>
+          </article>
+
+          <!-- Projet de suivi scolaire Monitoring Student. -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img
+                src="image/monitoring-student.svg"
+                alt="Aperçu de la plateforme Monitoring Student"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Monitoring Student</h3>
+              <p>
+                Plateforme web permettant aux encadreurs de suivre les élèves,
+                leurs travaux et leur progression.
+              </p>
+              <a
+                class="project-link"
+                href="monitoring student\monitoring-student.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Voir le projet</a
+              >
+            </div>
+          </article>
+
+          <!-- Projet de gestion de données avec Airtable. -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img
+                src="image/Réalisation airtable.png"
+                alt="Aperçu du projet Airtable"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Gestion de données avec Airtable</h3>
+              <p>
+                Application de gestion et d'organisation de données conçue avec
+                Airtable.
+              </p>
+              <a
+                class="project-link"
+                href="https://airtable.com/appkMRg4HarrofCf7/pagi0hbgESLyKeq0L"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Voir le projet</a
+              >
+            </div>
+          </article>
+
+          <!-- Projet de création graphique avec Canva. -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img
+                src="image/affiche.jpeg"
+                alt="Aperçu du projet Canva"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Affiches et supports visuels</h3>
+              <p>
+                Création d'affiches et de supports de communication réalisés
+                avec Canva.
+              </p>
+              <a class="project-link" href="#realisations"
+                >Voir les réalisations</a
+              >
+            </div>
+          </article>
+          <!-- Projet de site e-commerce avec Odoo. -->
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img
+                src="image/Capture d'écran 2026-11-06 165954.png"
+                alt="Aperçu du site de la collection de hijab"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Site web pour une collection de hijab</h3>
+              <p>
+                Création d'un site web pour une collection de hijab utilisant
+                Odoo.
+              </p>
+              <a
+                class="project-link"
+                href="https://hijab-collection-by-khadija.odoo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Voir le projet</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section galerie : affiches ouvrant l'image en plein écran. -->
+    <div class="section" id="realisations">
+      <div class="boxed">
+        <h2 class="text-center projects-title">Mes réalisations</h2>
+        <div class="realisations-grid">
+          <!-- Première réalisation graphique : affiche Canva. -->
+          <figure class="realisation-card reveal">
+            <a
+              href="image/affiche.jpeg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="image/affiche.jpeg"
+                alt="Affiche réalisée avec Canva"
+                class="réalisation"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption class="realisation-body">
+              <h3>Affiche Canva</h3>
+              <p>Support de communication conçu avec Canva.</p>
+            </figcaption>
+          </figure>
+          <!-- Deuxième réalisation graphique : première affiche créée. -->
+          <figure class="realisation-card reveal">
+            <a
+              href="image/1er affiche.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="image/1er affiche.png"
+                alt="Première affiche réalisée"
+                class="réalisation"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption class="realisation-body">
+              <h3>Première affiche</h3>
+              <p>Ma toute première création graphique.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- Script d'animation au défilement (classes .reveal). -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

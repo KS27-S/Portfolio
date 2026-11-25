@@ -1,0 +1,294 @@
+/* Feuille de style commune aux quatre pages : en-tête, typographie, sections d'accueil et pied de page. */
+/* En-tête : logo à gauche et navigation à droite, alignés sur une même ligne. */
+header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 15px 30px;
+
+    /* Couleurs des liens selon leur état : normal, survol, visité et actif. */
+    a{
+    color: rgb(22, 18, 46)
+}
+a:hover{
+    color:lawngreen
+}
+a:visited{
+    color: rgb(10, 9, 10);
+}
+a:active{
+    color: rgb(154, 12, 33);
+}
+/* Les liens ne sont pas soulignés par défaut. */
+a:link{
+    text-decoration: none;
+}
+/* Logo de l'association, arrondi et bordé de clair. */
+.logo{
+    width: 400px;
+        border: 4px ;
+        border-color: azure;
+        border-radius: 30%;
+       
+}
+ /* Navigation horizontale : les éléments sont espacés et centrés verticalement. */
+ #nav{
+         display: flex; 
+         align-items: center;
+         gap: 25px;
+        }
+ /* Bouton jaune du menu pour l'appel à l'action "NOUS REJOINDRE". */
+.bouton{
+           
+             background: rgb(239, 239, 98);
+            color:darkblue;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+           } 
+}
+/* Corps de page : fond clair, interlignage et styles typographiques partagés. */
+body{
+    background-color: azure;
+        line-height: 1.5;
+        /* Titres principaux : grands, en police serif, centrés et soulignés. */
+        h1{
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            text-decoration: underline;
+        }
+        /* Variante de titre portant la classe ".p", avec sa propre taille. */
+        .p{
+            font-size: 30px;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              text-align: center;
+               text-decoration: underline;
+        }
+        /* Paragraphes courants : police sans serif et texte justifié. */
+        p{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+}
+        /* Première section d'accueil : affiche pleine largeur et panneau bleu superposé. */
+.section1{
+            /* L'image d'affiche occupe toute la largeur disponible. */
+            .photo{
+                width: 100%;
+            }
+             /* Bloc de texte translucide positionné sur l'affiche. */
+             .bloc-bleu{
+            position: absolute;
+            top: 90%;
+            right: 30px;
+            transform: translateY(-50%);
+            
+            background: rgba(0, 0, 139, 0.75);
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 50px;
+            width:30%
+            
+        }
+            /* Titre du panneau bleu, sans soulignement. */
+            .titre{
+                text-decoration: none;
+            }
+                   /* Lien jaune vers la page des actions, stylé comme un bouton. */
+                   .bouton-jaune{
+            background: rgb(239, 239, 98);
+            color:darkblue;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            
+           } 
+
+     }
+        /* Deuxième section : trois cartes de programmes alignées dans un cadre gris. */
+        .section2{
+                                   
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 10px black solid;
+            border-radius: 20px;
+            background-color: darkgray;
+            color: black;
+            font-size: 20px;
+            
+             /* Carte au bord supérieur jaune (set-setal). */
+             #div{
+                border: 5px;
+                border-radius: 30px;
+                background: rgb(248, 248, 249);
+                
+                text-align: center;
+                border-width: 3px;
+                border-top: 10px yellow solid;
+            
+              
+               margin: 20px;
+               padding: 30px;
+              
+               width: 20%;
+                
+               
+              }
+             /* Carte au bord supérieur vert (soutien scolaire). */
+            .div2{
+                
+                
+              
+                border: 5px;
+                border-radius: 30px;
+                background: rgb(248, 248, 249);
+               
+                
+                text-align: center;
+                border-width: 3px;
+                border-top: 10px rgb(25, 171, 78) solid;
+               
+               
+               
+                margin: 20px;
+               padding: 30px;
+               
+               width: 20%;
+             
+            
+               
+            }
+              
+        
+         /* Carte au bord supérieur bleu (atelier numérique), sans largeur fixe. */
+        .div3{ 
+            border: 5px;
+                border-radius: 30px;
+                background: rgb(248, 248, 249);
+               
+                text-align: center;
+                border-width: 3px;
+                border-top: 10px rgb(73, 155, 237) solid;
+               
+              
+               margin: 20px;
+               padding: 30px;
+               
+        
+            }
+        }
+              
+
+            /* Troisième section : texte centré et liens utilitaires vers formulaire et galerie. */
+            .section3{
+                p{
+                    text-align: center;
+                }
+               
+                font-weight: 800;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                 /* Liens de la classe "form" présentés comme de petits boutons clairs. */
+                .form{
+                    padding: 9px 24px;
+            background-color:#f0f0f0 ;
+            border: 1px solid #ccc;
+             border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            color:darkblue;
+            
+            
+            text-decoration: none;
+            font-weight: bold;
+                }
+            }
+            
+            
+
+/* Pied de page : bande claire regroupant adresse, horaire, contact et logo. */
+footer{ 
+          display: flex;
+          position: static;
+            margin-top: 60px;
+        align-items: center;
+        justify-content: center;
+        
+            border-top: 1px solid black;
+            background-color: lightblue;
+             /* Adresse et son icône de localisation alignés à gauche. */
+             .adresse{ .localisation{
+               
+                width: 25px;
+                border-radius: 50%;
+                 font-size: 15px;
+            font-style: unset;
+            color:black;
+            
+             }
+                 display: flex;
+            justify-content: left;
+            align-items: center;
+            color: black;
+           
+        }
+        /* Contact WhatsApp : icône et numéro alignés à gauche. */
+        .whatsapp{.numero{
+                
+                width: 25px;
+                 
+             }
+                 display: flex;
+            justify-content: left;
+            align-items: center;
+            font-size: 15px;
+            font-style: unset;
+             color: black;
+            
+        }
+        /* Horaire de réunion : icône et texte alignés à gauche. */
+        .reunion{.rencontre{
+               
+                width: 25px;
+                
+
+             }
+                 display: flex;
+             justify-content: left;
+            align-items: center;
+            font-size: 15px;
+            font-style: unset;
+            color: black;
+            
+        }
+        /* Logo du pied de page placé à droite, avec fond clair et bordure. */
+        #footer{
+             display: flex;
+            justify-content: flex-end;
+            align-items: right;
+           padding: 20px;
+           position: absolute;
+           right: 20px;
+
+             #logo{
+            width: 200px;
+            border-radius: 50%;
+           background: white;
+           border: 40px;
+           border-color: rgb(113, 113, 242);
+            
+            
+            
+            text-decoration: none;
+            font-weight: bold;
+                         
+        }
+    }
+
+
+ }
+}

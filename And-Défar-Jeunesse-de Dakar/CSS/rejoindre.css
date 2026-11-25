@@ -1,0 +1,44 @@
+/* Styles propres à la page d'inscription : mise en forme du formulaire de contact. */
+body{
+    /* Section du formulaire : intitulé, champs alignés et zone d'envoi. */
+    section{
+        /* Consigne affichée au-dessus du formulaire. */
+        h2{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        /* Chaque ligne de saisie aligne son libellé et son champ sur une même ligne. */
+        .champ{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-family: fantasy;
+            
+        }
+        /* Libellés de largeur fixe pour aligner tous les champs entre eux. */
+        .champ label{
+            width: 180px;
+            font-weight: 500;
+            color: #444;
+        }
+        /* Bouton d'envoi aligné sous les champs. */
+        .envoyer{
+            margin-top: 20px;
+            margin-left: 180px;
+                }
+        /* Apparence du bouton de soumission du formulaire. */
+        .envoyer input[type="submit"]{
+            padding: 9px 24px;
+            background-color:#ccc ;
+            border: 1px solid #ccc;
+             border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        /* Retour visuel au survol du bouton d'envoi. */
+        .envoyer input[type="submit"]:hover {
+            background-color: #07cc52;
+}
+    }
+}

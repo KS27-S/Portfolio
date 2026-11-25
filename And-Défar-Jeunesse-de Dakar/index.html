@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Page d'accueil du site And Défar : présente l'association, ses programmes et les liens vers les autres pages. -->
+<html lang="fr">
+<head>
+    <!-- Métadonnées de la page (encodage, affichage mobile, titre de l'onglet) puis feuille de style commune. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- En-tête commun : logo de l'association et menu de navigation principal. -->
+    <header>
+        <img class="logo" src="images/logo.png" alt="photo">
+        <!-- Navigation principale : quatre liens internes, le dernier étant stylé en bouton d'action. -->
+        <nav id="nav">
+            <a href="index.html">  Accueil </a>
+
+        <a href="action.html" >Nos actions </a>
+
+        <a href="galerie.html"> Galerie</a>
+        
+        <a href="rejoindre.html" class="bouton">NOUS REJOINDRE</a>
+        
+        </nav>
+    </header>
+
+    <main>
+        <h1>And Défar - La jeunesse qui agit pour Dakar</h1>
+        <!-- Bloc d'accroche : affiche à gauche et panneau bleu superposé avec appel à l'action. -->
+        <section>
+            <article class="section1">
+    <div>
+        <img class="photo" src="images/affiche.jpg" alt="Sét-sétal" >
+    </div>
+    
+    <div class="bloc-bleu">
+        <h1 class="titre">And Défar - La jeunesse
+            qui agit pour Dakar </h1>
+            <p>Nettoyage,soutient scolaire,formation
+                        <br>numérique. Rejoins le mouvement
+            </p>
+            <!-- Lien d'appel à l'action vers la page qui détaille les trois programmes. -->
+            <a href="action.html" class="bouton-jaune">Découvrir nos actions &rarr; </a>
+            
+
+    </div>
+            </article>
+
+        <!-- Trois cartes parallèles : set-setal, soutien scolaire et atelier numérique. -->
+        <article class="section2">
+            <div>
+                <img src="images/clean.png" alt="" class="image">
+                <h2>Set-setal</h2>
+                <p>Journées de nettoyage communautaires <br>
+                    dans les quartiers de Dakar. <br>
+                    Mobilisation citoyenne.<br>matériel fourni, 
+                    ambiance convival
+                </p>
+            </div>
+            <div>
+                <img src="images/review.png" alt="" class="image">
+                <h2>Soutien scolaire <br> BFEM BAC</h2>
+                    <p>
+                        Ateliers d'aide aux devoirs, préparation <br>BFEM & BAC
+                    </p>
+            </div>
+            <div>
+                <img src="images/ux.png" alt="" class="image" id="image">
+                 <h2>Atelier Numérique </h2>
+                    <p>
+                        Formation initiation au code, <br>bureautique, sécurité numérique , <br> marketing digitale et
+                         entreprenariat numérique.<br> Pour jeunes de 15 ans-25 ans. <br>Ordinateurs fournis.
+                    </p>
+            </div>
+            
+        </article>
+
+        <!-- Présentation de la communauté et de la mission, avec liens vers le formulaire et la galerie. -->
+         <article class="section3">
+            <h1>And Défar - La jeunesse qui agit pour Dakar</h1>
+            <p>
+                Nous sommes une communauté de jeunes motivés et motivant la jeunesse à travailler en équipe.
+                 <br> Notre mission est d'aider les jeunes scolarisés, entrepreneurs,et même non
+                scolarisés <br> à se former dans les métiers du numérique, à maitriser les bases du digitale ... <br>
+                Aussi nous organisons des séances de renforcement gratuites les week-ends et nous aidons les candidats 
+                <br> à préparer leurs examens  . 
+                A cela s'ajoute les set-setal qu'on organise tous les samedis <br> pour rendre notre quartier propre et de permettre 
+                aux habitants de mieux se connaitre et de se familiariser. <br> 
+                <strong>Si vous habitez à Dakar et que vous voulez devenir membre de AND DEFAR <br> <br>
+                Veillez remplir ces informations &rarr; </strong>   
+                 <!-- Liens utilitaires de la classe "form" vers l'inscription et les photos des activités. -->
+                <a href="rejoindre.html" class="form"> Formulaire </a> <br> <br>
+                Si vous voulez visionner quelques uns des images que l'on a pris lors de nos <br>
+                activités voici notre galerie d'images <br> <br>
+                <a href="galerie.html" class="form"> Galerie </a>
+                
+            </p>
+                
+                    </article>
+    </main>
+
+    <!-- Pied de page de contact : adresse, réunion hebdomadaire, WhatsApp et logo de retour à l'accueil. -->
+    <footer>
+        <section>
+             <!-- Coordonnées géographiques de l'association. -->
+             <div class="adresse">
+                    <img src="images/maps-and-flags.png" alt="" class="localisation" >
+                <h4>Médina,Dakar,Sénégal</h4>    
+                </div>
+
+                 <!-- Fréquence et horaire des réunions. -->
+                <div class="reunion">
+                    <img src="images/meeting.png" alt="" class="rencontre">
+                <h4>Réunion: tous les samedis à 18h</h4>
+
+                    </div>
+                     <!-- Lien externe WhatsApp ouvert dans un nouvel onglet, avec icône et numéro affiché. -->
+                    <div class="whatsapp">
+                        <a href="https://wa.me/77XXXXXXX" target="_blank" rel="noopener noreferre">
+                        <img src="images/whatsapp (2).png" alt="" class="numero" >
+                        </a>
+                        <h4>whatsapp:77XXXXXXX</h4>
+                    </div>
+                       <!-- Logo cliquable du pied de page, renvoyant vers l'accueil dans un nouvel onglet. -->
+                      <div id="footer">
+
+                <a href="index.html" target="_blank" rel="noopener noreferre">
+                    <img src="images/logo.png" alt="" id="logo" >
+                </a>
+                      </div>
+
+                     
+        </section>
+    </footer>
+</body>
+</html>

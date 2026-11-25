@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Page galerie : rassemble les photos prises lors des activités de l'association. -->
+<html lang="fr">
+<head>
+    <!-- Métadonnées, titre de l'onglet, feuille de style commune puis feuille spécifique à la galerie. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/galerie.css">
+</head>
+<body>
+    <!-- En-tête commun : logo et navigation vers les quatre pages du site. -->
+    <header>
+        <img class="logo" src="images/logo.png" alt="photo">
+        <!-- Menu de navigation, avec un dernier lien présenté comme un bouton. -->
+        <nav id="nav">
+            <a href="index.html">  Accueil </a>
+
+        <a href="action.html" >Nos actions </a>
+
+        <a href="galerie.html"> Galerie</a>
+        
+        <a href="rejoindre.html" class="bouton">NOUS REJOINDRE</a>
+        
+        </nav>
+    </header>
+    <main>
+        <!-- Titre centré et souligné via un style en ligne, puis sous-titre de présentation des photos. -->
+        <h1 style="text-align: center; 
+        text-decoration: underline;">VOICI QUELQUES IMAGES DE NOS JEUNES EN ACTIONS</h1>
+        <h2>Ces images ont été pris lors de nos activités </h2>
+        <!-- Suite d'illustrations : toutes partagent la classe utilitaire "picture" pour leur mise en page. -->
+        <img src="images/révision 1.jpeg" alt="" class="picture">
+        <img src="images/atelier 1.jpeg" alt=""class="picture">
+        <img src="images/affiche.jpg" alt=""class="picture">
+        <img src="images/atelier 4.jpeg" alt=""class="picture">
+        <img src="images/révision 2.jpeg" alt=""class="picture">
+        <img src="images/atelier 3.jpeg" alt=""class="picture">
+        <img src="images/atelier 2.jpeg" alt=""class="picture">
+    </main>
+     <!-- Pied de page commun : adresse, horaire, contact WhatsApp et logo de retour à l'accueil. -->
+     <footer>
+        <section>
+             <!-- Localisation de l'association à Médina, Dakar. -->
+             <div class="adresse">
+                    <img src="images/maps-and-flags.png" alt="" class="localisation" >
+                <h4>Médina,Dakar,Sénégal</h4>    
+                </div>
+
+                <!-- Rappel du jour et de l'heure de la réunion hebdomadaire. -->
+                <div class="reunion">
+                    <img src="images/meeting.png" alt="" class="rencontre">
+                <h4>Réunion: tous les samedis à 18h</h4>
+
+                    </div>
+                    <!-- Lien externe WhatsApp ouvert dans un nouvel onglet, accompagné du numéro de contact. -->
+                    <div class="whatsapp">
+                        <a href="https://wa.me/77XXXXXXX" target="_blank" rel="noopener noreferre">
+                        <img src="images/whatsapp (2).png" alt="" class="numero" >
+                        </a>
+                        <h4>whatsapp:77XXXXXXX</h4>
+                    </div>
+                      <!-- Logo du pied de page : lien interne ouvert dans un nouvel onglet. -->
+                      <div id="footer">
+
+                <a href="index.html" target="_blank" rel="noopener noreferre">
+                    <img src="images/logo.png" alt="" id="logo" >
+                </a>
+                      </div>
+
+                     
+        </section>
+    </footer>
+</body>
+</html>
